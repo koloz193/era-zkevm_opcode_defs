@@ -23,8 +23,8 @@ pub const KECCAK256_ROUND_FUNCTION_PRECOMPILE_ADDRESS: u16 = SYSTEM_CONTRACTS_OF
 pub const SHA256_ROUND_FUNCTION_PRECOMPILE_ADDRESS: u16 = 0x02; // as in Ethereum
 pub const ECRECOVER_INNER_FUNCTION_PRECOMPILE_ADDRESS: u16 = 0x01; // as in Ethereum
 
-pub const INITIAL_STORAGE_WRITE_PUBDATA_BYTES: usize = 64;
-pub const REPEATED_STORAGE_WRITE_PUBDATA_BYTES: usize = 40;
+pub const INITIAL_STORAGE_WRITE_PUBDATA_BYTES: usize = 65;
+pub const REPEATED_STORAGE_WRITE_PUBDATA_BYTES: usize = 38;
 pub const L1_MESSAGE_PUBDATA_BYTES: u32 = 1 + 1 + 2 + 20 + 32 + 32;
 
 /// The maximal amount of public data in bytes that could be sent within an L1 batch
